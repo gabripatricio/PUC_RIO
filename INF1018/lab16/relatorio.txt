@@ -1,0 +1,26 @@
+2)
+
+O "D" se refere a variável ser inicilizada na seção de dados. Ou seja, deve ser uma constante, pois em Assembly, o que está em .data é constante.
+
+O "T" se refere a variável estar na seção texto. Provavelmente deve ser uma variável de uma funcção.
+
+"U" The symbol is undefined. Ou seja, provavelmente é definido em outro arquivo, como é o caso do printf.
+
+3)
+
+Foi durante a compilação. Sim, consigo perceber. Isso porque ele é usado como referência principal, se não estiver de acordo com ele, então o compilador reclama.
+
+4)
+
+a) Além de compilar normalmente, a execução do programa não causou nenhum erro significativo, como um seg fault etc...
+O resultado foi 1277... Sinceramente, não faço a menor ideia da razão de ser 1277. 
+
+b) Ocorreu um erro durante o link. O a passou de U para D.
+
+c) Agora não causou mais o mesmo erro que anteriomente. Isso porque a variável é uma variável que só pode ser acessado dentro do escopo do arquivo temp2.c.
+
+5)
+
+a) Deu seg fault. B é indefinido em 1 mas é parte do .data em 2. Acredito que dê seg fault pois b não é uma função em nenhum dos dois arquivos.
+
+b) Não acontence nada. Continuou dando o mesmo erro. Acredito que seja porque b ainda está indefinido em 1.
