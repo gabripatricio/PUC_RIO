@@ -1,0 +1,32 @@
+Nome: Gabriel Patrício de Oliveira - 2310806
+Nome: Gabriel Martins Mendes - 2311271
+
+Objetivo:
+
+Ex1: Paralelismo
+
+Criar um vetor a de 10.000 posições inicializado com valor 10. Criar 10 processos trabalhadores que utilizam áreas diferentes do vetor para multiplicar cada elemento da sua parcela do vetor por 2 armazenando esse resultado no vetor e para somar as posições do vetor retornando o resultado para um processo coordenador que irá apresentar a soma de todas as parcelas recebidas dos trabalhadores.
+
+Obs: O 1º trabalhador irá atuar nas primeiras 1.000 posições, o 2º trabalhador nas 1.000 posições seguintes e assim sucessivamente.
+
+Ex2: concorrência
+
+Considere o vetor de 10.000 posições inicializado com o valor 10. Crie 10 trabalhadores, ambos multiplicam por 2 e somam 2 em todas as posições do vetor. Verifique automaticamente se todas as posições do vetor resultante têm valores iguais e explique o que ocorreu.
+
+Estrutura do Programa:
+
+Nós usamos as funções fork() para criar diferentes processos. A função fork() cria um processo filho que copia a área de memória do processo pai. Nós usamos essa função para criar os "trabalhadores".
+
+Solução:
+
+No ex1.c nós inicializamos um vetor v com 10000 posições em 10 e um vetor soma com 10 posições zerado. Depois, fizemos um trabalhador (processo filho) multiplicar cada seção de 1000 posições por 2 e somar no correspondente índice do vetor soma. 
+
+No ex2.c nós inicializamos um vetor v com 10000 posições em 10. Nesse caso, fizemos um loop com o número de trabalhadores e, para cada trabalhador, nós somamos multiplicamos por 2 e somamos 2 ao valor do vetor v. 
+
+Observações:
+
+Conforme explicado anteriormente, a função fork() faz uma cópia da memória do processo pai e coloca no processo filho. Portanto, qualquer tentativa de alterar o vetor original falha miseravelmente. Isso seria corrigido caso houvesse memória compartilhada. 
+
+O vetor de soma do ex1.c está todo zerado, enquanto no segundo caso, todos os elementos são iguais.
+
+

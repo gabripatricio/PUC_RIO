@@ -1,0 +1,3 @@
+Não tem nada. 
+
+Fazer um heap vai dar muito trabalho. Preferi fazer listas encadeadas e tratamento adequado...

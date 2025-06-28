@@ -1,0 +1,121 @@
+1) Execute o programa “ctrl-c.c”. Digite Ctrl-C e Ctrl-\. Analise o resultado. Neste mesmo programa,
+remova os comandos signal( ) e repita o teste anterior observando os resultados. Explique o que
+ocorreu no relatório.
+
+Antes de remover, o programa não encerrava quando apertávamos CONTROL + C, ele mostrava uma mensagem na tela sempre que apertávemos a tecla. Após a retirada das linhas, o programa passou a encerrar de forma abrupta, tratando como padrão o sinal enviado pelo teclado.
+Isso acontece, pois agora a função handler não é mais chamada. Essa função era responsável por fazer o tratamento (adequado) para evitar que o programa se encerra-se ao apertar CONTROL + C, além de mostrar a mensagem que as teclas foram apertadas, e portanto o sinal de término foi enviado.
+Porém, a partir do momento em que nós apagamos essa linha, o programa não percorre mais por essa função, fazendo com que o processo seja encerrado como qualquer um outro que não tenha essa função de tratamento.
+
+Além disso, antes, ao apertarmos as teclas CONTROL + \ o programa encerrava com código 0, já que ele também passava por um handler, que encerrava o processo pai com o código 0, pela instrução exit(0). 
+Quando nós retiramos o a linha do signal, essa função de handler também passou a ser ignorada, de modo que agora o processo não termina mais com o código 0, mas sim com o código diferente de 0, já que foi enviado um SIGABRT via teclado.
+
+2)
+Não é possível. A função signal() falha, retornando um ponteiro para (void*) -1, dessa forma, o handler que supostamente seria chamado ao tentar dar SIGKILL nunca é chamado. 
+Para ter certeza disso, eu testei com outros sinais, como o SIGINT, por exemplo, nesse caso, funcionou perfeitamente.
+
+Eu fiz esses dois códigos:
+
+mandasinal.c
+#include <signal.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+#define ID_PROCESSO 14253
+
+// ps aux | grep <NOME_PROCESSO>
+
+/*
+exemplo:
+ps aux | grep ex2
+
+gabripa+   *13957* 99.9  0.0   2680  1280 pts/0    R+   17:46   4:48 ./ex2
+gabripa+   14086  0.0  0.0   9284  2304 pts/1    S+   17:51   0:00 grep --color=auto ex2
+
+LOGO, O PID EH 13957
+
+*/
+
+int main(void)
+{
+    int v = kill(ID_PROCESSO, SIGKILL);
+
+    if (!v)
+        printf("O sinal foi enviado ao processo %d\n", ID_PROCESSO);
+    return 0;
+}
+
+ex2.c 
+#include <stdio.h>
+#include <signal.h>
+#include <stdlib.h>
+#define EVER \
+    ;        \
+    ;
+void killHandler(int sinal);
+int soma = 0;
+
+int main(void)
+{
+    void (*p)(int); // ponteiro para função que recebe int como parâmetro
+    p = signal(SIGKILL, killHandler);
+    printf("Endereco do manipulador anterior %p\n", p);
+    puts("TENTANDO INTERCEPTAR UM SIGKILL");
+    for (EVER)
+        ;
+}
+void killHandler(int sinal)
+{
+    printf("Tentaram me matar :( (%d)\n", sinal);
+}
+
+3)
+
+a) Nós obtivemos duas saídas diferentes:
+
+i) Quando o timer definido chega, o pai mata o filho após o tempo limite de 2 segundos. O programa então termina com a mensagem: 'Program a exceeded limit of 2 seconds!'.
+
+ii) Quando o filho é efetivamente terminado pelo sinal SIGKILL, o manipulador de sinal é chamado, e a mensagem 'Program a exceeded limit of 2 seconds! Child 46955 terminated within 2 seconds com estado 9.' é exibida, indicando que o filho foi morto com o código de status 9 (morte forçada)."
+
+Basicamente, 
+
+Existe o caso i) em que o programa (como um todo) termina antes que seja possível chamar o childHandler
+
+Existe o caso ii) em que o programa (como um todo) termina depois que seja possível chamar o childHandler.
+
+b)
+
+Novamente, existem 2 casos.
+
+i) O caso em que o processo filho consegue terminar normalmente, quando nós colocamos um delay > 3.
+ii) o caso em que o processo filho não consegue terminar normalmente já que foi assassinado pelo pai, quando nós colocamos um delay < 3.
+
+c) 
+
+Novamente, 2 casos.
+
+i) delay > 5 (ex: delay = 6) O filho termina naturalmente após 5 segundos. O handler é invocado e imprime: Child <pid> terminated within 6 seconds com estado 0.
+ii) delay < 5, O pai mata o filho com o SIGKILL após n segundos.
+
+d)
+
+É igual ao caso anterior, mas agora ao invés de 5 segundos as condições devem ser aplicadas a 15 segundos. 
+
+Portanto, novamente, 2 casos.
+
+i) delay > 15 (ex: delay = 16) O filho termina naturalmente após 15 segundos. O handler é invocado e imprime: Child <pid> terminated within 6 seconds com estado 0.
+ii) delay < 15, O pai mata o filho com o SIGKILL após n segundos.
+
+4)
+
+Quando nós tentamos dividir números reais, floats ou  doubles, ao invés de emitir um sinal de divisão por 0, é emitido um sinal de infinto ou not a number. 
+Enquanto que se nós tentarmos dividir dois números inteiros aí sim um sinal de divisão por 0 é emitido e nós podemos tratar adequadamente.]
+
+5)
+
+Funcionou tudo normal. Nós usamos a boa e velha técnica do "mod n", como nós temos apenas dois processos filhos, podemos usar n = 2, assim, sempre que o resto da divisão por 2 for 0, o processo 1 é executado e quando o resto da divisão por 2 por 1, então o processo 2 é executado.
+
+Caso tivessem n processos, seria o mesmo caso, o resto da divisão por n indexaria qual processo nós queremos que execute.
+
+Nós não tivemos dificuldades significativas para esse exercício, a "sacada" do mod n, foi um tanto rápida. Além disso, o programa funcionou corretamente, sem maiores defeitos.
+
+OBSERVAÇÃO: NEM TODOS OS CÓDIGOS FONTES ESTÃO AQUI NO RELATÓRIO (QUE JÁ ESTÁ ENORME) NÓS ENVIAMOS SEPARADAMENTE.
