@@ -1,0 +1,31 @@
+Isso apenas serviu para testar algumas queries básicas para ver como o Banco de Dados se comportaria:
+
+
+# Selecionando todos os professores da USP
+select * 
+from docente 
+where cpf in (
+select cpf from trabalha
+where codigoemecies in (
+select codigoemecies
+from ies
+where nome = 'Universidade de São Paulo'))
+
+# Selecionando todos os professores da PUC
+select * 
+from docente 
+where cpf in (
+select cpf from trabalha
+where codigoemecies in (
+select codigoemecies
+from ies
+where nome = 'Pontifícia Universidade Católica do Rio de Janeiro'))
+
+# Selecionando todos os alunos que cursam Engenaria da Computação
+select * 
+from discente 
+where codigoemeccurso in(
+
+select codigoemaccurso
+from curso
+where nome='Engenharia da Computação')

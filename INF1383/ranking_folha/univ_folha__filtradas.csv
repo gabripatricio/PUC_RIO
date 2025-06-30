@@ -1,0 +1,204 @@
+,Universidade,Estado,Pública ou Privada,Nota em Ensino,Nota em Pesquisa,Nota em Mercado,Nota em Inovação
+0,Universidade de São Paulo,SP,Estadual,31.29,41.71,18.0,3.89
+1,Universidade Estadual de Campinas,SP,Estadual,31.76,41.51,17.45,3.6
+2,Universidade Federal do Rio Grande do Sul,RS,Federal,31.32,40.82,16.9,3.49
+3,Universidade Federal do Rio de Janeiro,RJ,Federal,30.84,39.9,17.73,3.87
+4,Universidade Federal de Minas Gerais,MG,Federal,29.84,40.58,17.91,3.65
+5,Universidade Estadual Paulista Júlio de Mesquita Filho,SP,Estadual,30.85,40.26,17.45,3.17
+6,Universidade Federal de Santa Catarina,SC,Federal,30.99,39.99,15.81,3.38
+7,Universidade Federal do Paraná,PR,Federal,29.97,38.41,16.9,3.66
+8,Universidade de Brasília,DF,Federal,30.81,38.52,16.08,3.2
+9,Universidade Federal de Pernambuco,PE,Federal,29.72,36.69,17.27,3.23
+10,Universidade Federal de São Carlos,SP,Federal,30.53,39.15,13.52,2.87
+11,Universidade Federal de São Paulo,SP,Federal,30.27,40.56,10.14,3.0
+12,Universidade Federal Fluminense,RJ,Federal,29.59,35.14,16.63,3.1
+13,Universidade Federal de Viçosa,MG,Federal,30.04,38.18,12.15,3.68
+14,Universidade Federal do Rio Grande do Norte,RN,Federal,27.27,37.68,15.53,2.88
+15,Universidade Federal da Bahia,BA,Federal,26.4,36.53,17.27,3.3
+16,Universidade Federal do Ceará,CE,Federal,26.45,37.13,16.63,3.01
+17,Universidade Federal de Uberlândia,MG,Federal,28.7,36.65,14.44,3.35
+18,Pontifícia Universidade Católica do Rio Grande do Sul,RS,Privada,25.21,37.18,16.63,3.26
+19,Universidade do Estado do Rio de Janeiro,RJ,Estadual,26.38,35.67,17.27,3.17
+20,Universidade Federal de Goiás,GO,Federal,27.25,34.77,16.63,3.02
+21,Universidade Federal de Santa Maria,RS,Federal,28.99,37.51,12.15,2.62
+22,Universidade Estadual de Maringá,PR,Estadual,27.81,36.18,14.44,2.58
+23,Universidade Federal do Espírito Santo,ES,Federal,25.61,35.81,15.53,3.46
+24,Pontifícia Universidade Católica do Rio de Janeiro,RJ,Privada,25.21,35.37,15.53,3.35
+25,Universidade Estadual de Londrina,PR,Estadual,26.14,33.78,15.53,2.79
+26,Universidade Federal de Juiz de Fora,MG,Federal,26.45,34.84,13.52,2.84
+27,Universidade Federal de Lavras,MG,Federal,29.02,36.56,8.59,3.38
+28,Universidade Federal do Pará,PA,Federal,24.95,33.23,15.81,3.62
+29,Universidade Federal de Sergipe,SE,Federal,24.56,34.83,14.44,3.27
+30,Universidade Federal da Paraíba,PB,Federal,27.09,33.51,14.44,2.47
+31,Pontifícia Universidade Católica do Paraná,PR,Privada,24.41,31.41,16.9,3.52
+32,Universidade do Vale do Rio dos Sinos,RS,Privada,23.05,32.82,16.08,2.33
+33,Universidade Federal do Piauí,PI,Federal,25.23,30.94,14.44,2.16
+34,Universidade Federal de Pelotas,RS,Federal,23.77,37.39,7.13,2.86
+35,Universidade Estadual de Ponta Grossa,PR,Estadual,24.93,33.02,10.14,2.48
+36,Universidade Federal de Mato Grosso,MT,Federal,25.13,29.45,14.44,2.01
+37,Universidade Presbiteriana Mackenzie,SP,Privada,24.93,25.56,17.64,2.24
+38,Fundação Universidade Federal do ABC,SP,Federal,27.43,37.14,2.01,2.43
+39,Universidade Federal de Mato Grosso do Sul,MS,Federal,21.97,31.42,13.52,2.59
+40,Universidade Federal de Ouro Preto,MG,Federal,26.69,33.69,5.39,3.11
+41,Universidade Federal de Alagoas,AL,Federal,20.98,30.1,14.89,2.4
+42,Universidade Tecnológica Federal do Paraná,PR,Federal,27.65,29.45,8.59,2.94
+43,Universidade Estadual do Norte Fluminense Darcy Ribeiro,RJ,Estadual,25.96,36.29,2.01,2.96
+44,Fundação Universidade do Estado de Santa Catarina,SC,Estadual,22.53,31.55,11.42,2.47
+45,Universidade Federal Rural do Rio de Janeiro,RJ,Federal,25.09,30.9,8.59,2.52
+46,Universidade Federal de Itajubá,MG,Federal,25.58,33.75,2.74,3.07
+47,Universidade de Fortaleza,CE,Privada,20.24,26.75,15.81,2.08
+48,Universidade Federal de Campina Grande,PB,Federal,23.97,28.95,10.14,3.16
+49,Universidade de Pernambuco,PE,Estadual,15.81,31.27,14.44,2.14
+50,Universidade de Caxias do Sul,RS,Privada,19.67,27.51,13.52,3.43
+51,Universidade Federal do Triângulo Mineiro,MG,Federal,26.83,30.77,4.02,1.61
+52,Universidade Estadual de Santa Cruz,BA,Estadual,21.17,29.53,10.14,2.57
+53,Universidade Federal do Maranhão,MA,Federal,21.33,27.51,13.52,2.05
+54,Universidade Federal do Amazonas,AM,Federal,20.27,27.66,13.52,2.2
+55,Universidade Estadual do Oeste do Paraná,PR,Estadual,24.26,27.43,10.14,2.64
+56,Universidade Federal de São João Del Rei,MG,Federal,21.98,32.49,5.39,2.62
+57,Universidade Federal Rural de Pernambuco,PE,Federal,22.26,32.84,5.39,2.71
+58,Universidade Estadual do Ceará,CE,Estadual,20.65,27.01,13.52,1.84
+59,Universidade Estadual de Feira de Santana,BA,Estadual,23.49,27.68,8.59,2.42
+60,Fundação Universidade Federal de Ciências da Saúde de Porto Alegre,RS,Federal,23.43,33.71,2.01,1.49
+61,Pontifícia Universidade Católica de Minas Gerais,MG,Privada,22.18,19.01,17.64,2.91
+62,Universidade Federal do Rio Grande,RS,Federal,21.76,33.94,2.74,1.81
+63,Pontifícia Universidade Católica de São Paulo,SP,Privada,26.68,17.85,17.27,0.47
+64,Pontifícia Universidade Católica de Campinas,SP,Privada,21.83,20.5,16.08,1.95
+65,Universidade Federal do Estado do Rio de Janeiro,RJ,Federal,23.77,28.09,5.39,1.77
+66,Universidade Católica de Brasília,DF,Privada,11.01,30.13,13.52,2.85
+67,Universidade Federal de Alfenas,MG,Federal,22.25,29.96,4.02,2.15
+68,Universidade de Passo Fundo,RS,Privada,17.68,27.68,10.14,1.8
+69,Universidade Positivo,PR,Privada,20.91,19.3,14.44,2.37
+70,Universidade Nove de Julho,SP,Privada,19.17,22.09,15.53,0.59
+71,Universidade Tiradentes,SE,Privada,16.71,22.88,13.52,2.48
+72,Universidade Católica Dom Bosco,MS,Privada,10.93,27.3,13.52,1.71
+73,Fundação Universidade Federal da Grande Dourados,MS,Federal,20.85,28.17,4.02,1.76
+74,Universidade Regional de Blumenau,SC,Municipal,15.59,23.78,12.15,2.8
+75,Universidade de Ribeirão Preto,SP,Privada,20.46,19.34,11.42,2.29
+76,Universidade Luterana do Brasil,RS,Privada,15.79,24.09,11.42,2.1
+77,Universidade Paulista,SP,Privada,19.18,15.15,17.91,0.96
+78,Universidade do Extremo Sul Catarinense,SC,Privada,14.42,24.6,10.14,1.5
+79,Universidade do Estado da Bahia,BA,Estadual,20.3,15.9,15.53,1.17
+80,Universidade do Sul de Santa Catarina,SC,Privada,14.49,22.65,12.15,1.56
+81,Universidade Estadual de Montes Claros,MG,Estadual,14.79,26.74,8.59,1.19
+82,Universidade do Vale do Itajaí,SC,Privada,20.88,17.43,12.15,1.1
+83,Fundação Universidade Federal do Vale do São Francisco,PE,Federal,16.52,25.37,7.13,2.23
+84,Universidade de Sorocaba,SP,Privada,14.69,21.68,10.14,2.76
+85,Universidade Estácio de Sá,RJ,Privada,18.03,15.03,16.63,1.41
+86,Universidade Federal Rural do Semi-árido,RN,Federal,21.72,25.24,2.74,1.37
+87,Universidade do Oeste Paulista,SP,Privada,20.21,19.06,10.14,0.97
+88,Universidade Estadual do Centro Oeste,PR,Estadual,21.55,19.19,7.13,3.06
+89,Universidade do Estado do Amazonas,AM,Estadual,12.6,22.97,11.42,2.0
+90,Universidade de Franca,SP,Privada,15.3,20.05,13.52,0.71
+91,Universidade Católica de Pernambuco,PE,Privada,18.45,16.05,14.89,0.64
+92,Fundação Universidade Federal do Pampa,RS,Federal,19.56,24.97,2.74,1.82
+93,Universidade Feevale,RS,Privada,16.58,20.0,11.42,1.33
+94,Universidade Católica de Pelotas,RS,Privada,14.22,27.13,5.39,0.21
+95,Universidade Estadual do Sudoeste da Bahia,BA,Estadual,15.14,22.53,8.59,2.0
+96,Universidade Federal dos Vales do Jequitinhonha e Mucuri,MG,Federal,16.06,26.35,2.74,2.67
+97,Universidade Vila Velha,ES,Privada,12.5,21.26,11.42,1.84
+98,Universidade Metodista de Piracicaba,SP,Privada,15.6,18.9,12.15,0.16
+99,Fundação Universidade Federal de Rondônia,RO,Federal,19.48,17.74,8.59,1.99
+100,Universidade do Grande Rio Professor José de Souza Herdy,RJ,Privada,14.6,18.97,11.42,1.23
+101,Fundação Universidade Federal do Tocantins,TO,Federal,14.83,21.91,8.59,2.13
+102,Pontifícia Universidade Católica de Goiás,GO,Privada,17.06,11.64,16.63,2.43
+103,Universidade Estadual da Paraíba,PB,Estadual,14.14,19.92,10.14,1.58
+104,Universidade São Francisco,SP,Privada,15.02,20.38,8.59,0.29
+105,Universidade La Salle,RS,Privada,12.56,23.59,5.39,0.73
+106,Universidade Cruzeiro do Sul,SP,Privada,14.12,18.01,10.14,0.12
+107,Universidade do Estado de Mato Grosso,MT,Estadual,16.64,18.03,7.13,1.97
+108,Universidade São Judas Tadeu,SP,Privada,18.51,9.54,14.44,0.29
+109,Universidade Santa Cecília,SP,Privada,18.11,12.56,8.59,2.88
+110,Universidade Salvador,BA,Privada,14.74,11.17,14.89,1.15
+111,Universidade Estadual de Mato Grosso do Sul,MS,Estadual,16.33,21.1,2.74,2.41
+112,Universidade Anhembi Morumbi,SP,Privada,20.51,7.7,14.89,0.48
+113,Universidade Federal do Recôncavo da Bahia,BA,Federal,14.7,21.07,4.02,2.58
+114,Universidade Federal da Fronteira Sul,SC,Federal,19.66,19.29,2.01,1.06
+115,Universidade Universus Veritas Guarulhos,SP,Privada,9.11,20.4,8.59,1.85
+116,Universidade Regional do Cariri,CE,Estadual,12.64,22.23,5.39,0.76
+117,Universidade da Região de Joinville,SC,Privada,16.21,12.6,11.42,1.14
+118,Universidade do Estado do Pará,PA,Estadual,10.22,16.96,11.42,2.39
+119,Universidade do Vale do Taquari,RS,Privada,12.46,22.62,4.02,0.86
+120,Universidade do Oeste de Santa Catarina,SC,Privada,16.38,12.35,11.42,1.09
+121,Universidade do Vale do Paraíba,SP,Privada,10.26,22.21,4.02,2.51
+122,Universidade Cidade de São Paulo,SP,Privada,9.53,19.02,10.14,0.16
+123,Universidade de Santa Cruz do Sul,RS,Privada,10.84,19.48,8.59,0.88
+124,Universidade Federal do Acre,AC,Federal,13.98,20.67,2.01,2.1
+125,Universidade Cesumar,PR,Privada,17.27,8.51,13.52,0.26
+126,Universidade Estadual do Piauí,PI,Estadual,19.12,8.68,12.15,0.39
+127,Universidade Pitágoras Unopar Anhanguera,PR,Privada,8.98,13.68,14.89,1.59
+128,Universidade Federal Rural da Amazônia,PA,Federal,9.18,24.4,2.01,2.78
+129,Universidade Estadual de Goiás,GO,Estadual,11.83,14.78,10.14,2.35
+130,Universidade Veiga de Almeida,RJ,Privada,10.65,12.93,13.52,1.18
+131,Universidade Federal do Amapá,AP,Federal,13.7,21.08,,1.17
+132,Universidade Potiguar,RN,Privada,7.85,11.93,15.53,1.15
+133,Universidade do Estado de Minas Gerais,MG,Estadual,18.08,9.38,7.13,2.02
+134,Universidade Federal do Oeste do Pará,PA,Federal,8.21,25.01,,1.7
+135,Universidade Federal do Oeste da Bahia,BA,Federal,15.42,16.46,4.02,0.04
+136,Universidade Federal do Sul da Bahia,BA,Federal,13.82,17.31,2.01,1.99
+137,Universidade de Uberaba,MG,Privada,16.32,8.77,10.14,1.13
+138,Universidade Metodista de São Paulo,SP,Privada,17.26,7.68,11.42,0.25
+139,Universidade Comunitária da Região de Chapecó,SC,Privada,12.3,15.16,7.13,0.81
+140,Universidade de Araraquara,SP,Privada,8.54,18.36,5.39,2.24
+141,Universidade Federal do Cariri,CE,Federal,15.83,17.6,0.55,0.24
+142,Universidade Fumec,MG,Privada,15.92,6.97,11.42,0.95
+143,Universidade da Integração Internacional da Lusofonia Afro-brasileira,CE,Federal,14.86,16.38,2.01,0.86
+144,Universidade de Cuiabá,MT,Privada,8.68,10.36,13.52,0.73
+145,Universidade Santo Amaro,SP,Privada,4.23,19.71,7.13,1.36
+146,Universidade Federal de Roraima,RR,Federal,13.9,14.91,4.02,0.41
+147,Universidade Regional Integrada do Alto Uruguai e das Missões,RS,Privada,8.78,14.56,8.59,1.7
+148,Universidade Franciscana,RS,Privada,12.11,15.38,5.39,0.45
+149,Universidade José do Rosário Velano,MG,Privada,12.21,11.46,7.13,2.14
+150,Universidade Católica de Santos,SP,Privada,17.77,7.99,7.13,
+151,Universidade do Estado do Rio Grande do Norte,RN,Estadual,12.26,12.16,7.13,1.28
+152,Universidade Salgado de Oliveira,RJ,Privada,7.22,10.0,13.52,0.13
+153,Universidade Estadual do Norte do Paraná,PR,Estadual,15.83,9.95,5.39,1.19
+154,Universidade Paranaense,PR,Privada,13.13,9.27,8.59,1.29
+155,Universidade Federal da Integração Latino-americana,PR,Federal,7.73,17.92,2.01,2.5
+156,Universidade Estadual do Paraná,PR,Estadual,17.84,7.5,5.39,0.76
+157,Universidade Ceuma,MA,Privada,3.03,15.17,11.42,0.19
+158,Universidade Estadual do Rio Grande do Sul,RS,Estadual,13.49,12.75,2.01,2.01
+159,Universidade Federal do Sul e Sudeste do Pará,PA,Federal,15.52,12.36,0.55,2.36
+160,Universidade Estadual do Maranhão,MA,Estadual,3.43,13.92,11.42,2.01
+161,Universidade Regional do Noroeste do Estado do Rio Grande do Sul,RS,Privada,10.34,9.67,10.14,1.57
+162,Universidade Estadual Vale do Acaraú,CE,Estadual,10.97,12.07,7.13,0.54
+163,Universidade de Taubaté,SP,Municipal,9.56,11.96,7.13,0.82
+164,Universidade da Amazônia,PA,Privada,9.31,4.78,14.44,1.14
+165,Universidade Tuiuti do Paraná,PR,Privada,14.99,6.41,7.13,0.56
+166,Universidade de Marília,SP,Privada,11.76,9.71,7.13,0.18
+167,Universidade de Itaúna,MG,Privada,14.52,6.23,5.39,0.99
+168,Universidade de Mogi das Cruzes,SP,Privada,3.47,13.8,8.59,0.41
+169,Universidade Anhanguera,MS,Privada,8.83,7.04,10.14,1.96
+170,Universidade Católica de Petrópolis,RJ,Privada,16.22,4.26,7.13,0.16
+171,Universidade Católica do Salvador,BA,Privada,8.46,6.07,12.15,
+172,Universidade Evangélica de Goiás,GO,Privada,4.13,9.5,8.59,1.68
+173,Universidade Brasil,SP,Privada,1.18,18.93,2.01,1.63
+174,Universidade Metropolitana de Santos,SP,Privada,10.11,7.63,4.02,1.93
+175,Universidade Ibirapuera,SP,Privada,3.14,17.8,0.55,0.11
+176,Universidade Municipal de São Caetano do Sul,SP,Municipal,14.69,4.22,4.02,0.16
+177,Universidade Castelo Branco,RJ,Privada,8.36,4.23,7.13,0.7
+178,Universidade de Vassouras,RJ,Privada,10.91,2.81,5.39,1.77
+179,Universidade Federal de Jataí,GO,Federal,7.98,7.18,2.01,1.56
+180,Universidade Anhanguera de São Paulo,SP,Privada,1.36,9.13,7.13,0.29
+181,Universidade Federal do Agreste de Pernambuco,PE,Federal,11.13,3.22,,2.61
+182,Universidade do Vale do Sapucaí,MG,Privada,3.5,8.22,4.02,1.91
+183,Universidade Estadual de Ciências da Saúde de Alagoas,AL,Estadual,5.56,9.81,0.55,0.55
+184,Universidade Nilton Lins,AM,Privada,0.61,8.32,7.13,
+185,Universidade de Cruz Alta,RS,Privada,2.46,8.94,4.02,1.05
+186,Universidade Vale do Rio Doce,MG,Privada,7.52,1.95,7.13,
+187,Universidade de Rio Verde,GO,Municipal,2.68,6.09,5.39,1.52
+188,Universidade do Estado do Amapá,AP,Estadual,5.97,9.36,,0.48
+189,Universidade Estadual de Alagoas,AL,Estadual,9.08,3.58,2.74,
+190,Universidade do Contestado,SC,Privada,2.04,6.4,4.02,1.14
+191,Universidade Santa Úrsula,RJ,Privada,8.71,4.64,0.55,
+192,Universidade Federal do Delta do Parnaíba,PI,Federal,7.75,4.99,,0.29
+193,Universidade do Planalto Catarinense,SC,Privada,1.48,5.71,5.39,0.82
+194,Universidade Federal de Catalão,GO,Federal,8.92,1.53,2.01,
+195,Universidade Cândido Mendes,RJ,Privada,0.65,1.93,10.14,
+196,Universidade Iguaçu,RJ,Privada,1.46,4.99,4.02,
+197,Universidade Estadual do Tocantins,TO,Estadual,4.81,5.04,2.01,0.49
+198,Universidade Alto Vale do Rio do Peixe,SC,Privada,7.57,1.45,2.01,
+199,Universidade Estadual da Região Tocantina do Maranhão,MA,Estadual,5.93,4.62,0.55,
+200,Universidade Estadual de Roraima,RR,Estadual,4.15,4.27,2.01,0.72
+201,Universidade Federal de Rondonópolis,MT,Federal,7.49,1.69,,0.46
+202,Universidade de Gurupi,TO,Municipal,0.1,0.77,2.74,
