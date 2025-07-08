@@ -7,7 +7,7 @@ CC = gcc
 CFLAGS = -g -Wall
 
 # Nome do executável final
-EXEC = main
+EXEC = sim-virtual
 
 # Lista de todos os arquivos de código-fonte (.c)
 SRCS = main.c memoria.c acesso.c utils.c algoritmos.c

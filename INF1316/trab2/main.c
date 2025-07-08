@@ -62,7 +62,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        printf("Esse algoritmo nao esta entre nos\n.");
+        printf("Esse algoritmo nao esta entre os implementados\n.");
         printf("Possiveis entradas: LRU, clock, 2nd, otimo\n");
         return 1;
     }

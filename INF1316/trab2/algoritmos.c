@@ -61,7 +61,6 @@ void algoritimo_clock(Frame *memoria_fisica, Acesso *acessos, int shift, int num
         }
         tempo++;
     }
-    printf("[CLOCK]: Encerrei.\n");
 }
 
 void algoritmo_LRU(Frame *memoria_fisica, Acesso *acessos, int shift, int numero_quadros, int quantidade_acessos, int *page_faults, int *paginas_escritas)
@@ -108,7 +107,6 @@ void algoritmo_LRU(Frame *memoria_fisica, Acesso *acessos, int shift, int numero
         }
         tempo++;
     }
-    printf("[LRU]: Encerrei.\n");
 }
 
 void algoritimo_segunda_chance(Frame *memoria_fisica, Acesso *acessos, int shift, int numero_quadros, int quantidade_acessos, int *page_faults, int *paginas_escritas)
